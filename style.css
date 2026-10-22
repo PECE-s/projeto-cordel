@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'xilosa';
+    src: url(fonte/xilosa_.ttf) format('truetype');
+}
+*{
+    margin: auto;
+}
+body{
+    background: black url('imagens/cordel.jpg') center center no-repeat fixed;    
+    background-size: cover;
+}
+
+header{
+    padding-top: 50px;
+    height: 190px;
+    font: bold 3em 'xilosa';
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+header > pre{
+    font-size: 20px;
+}
+
+article{
+    font: bolder 2.5em 'xilosa';
+    background-color: white;
+}
